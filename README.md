@@ -27,10 +27,10 @@ Projekt wykorzystuje model klient-serwer i korzysta z protokołu TCP, i epoll do
 
 Źródła:
 
-W katalogu `server/`:
+W katalogu `src/server/`:
  - `IRCsv.c` zawiera kod źródłowy serwera, obsługuje klientów, zarządza pokojami i wiadomościami.
 
-W katalogu `client/`:
+W katalogu `src/client/`:
  - `IRCCLient.py` zawiera klienta w wesji z wiersza poleceń używanego do testowania, nie jest potrzebny do interfejsu graficznego.
 
  - `gui_style.py` zwiera definicje klas interfejsu graficznego dla poszczególnych ekranów aplikacji.
